@@ -149,26 +149,48 @@ def plot_account_inout(account_df, year):
 
     return fig
 
-def plot_account_category_pcg(account_df, year):
-    # df = account_df[(account_df.year == year) & (account_df.month == month)]
-    df = account_df[account_df.year == year]
-    df = pd.pivot(
-        df,
-        index=['year', 'month', 'currency'],
-        columns='category',
-        values='in_out',
-    ).reset_index()
+def plot_account_category_pcg(account_df, year, month):
+    df = account_df[(account_df.year == year) & (account_df.month == month)]
+    # df = account_df[account_df.year == year]
+    # df = pd.pivot(
+    #     df,
+    #     index=['year', 'month', 'account', 'currency'],
+    #     columns='category',
+    #     values='in_out',
+    # ).reset_index()
+    
+    # for column in df.columns:
+    #     if column not in ['year', 'month', 'account', 'currency', 'income']:
+    #         df[f'{column}_pcg'] = abs(df[column]/df.income) * 100
 
-    for column in df.columns:
-        if column not in ['year', 'month', 'currency', 'income']:
-            df[f'{column}_pcg'] = abs(df[column]/df.income) * 100
+    income = df[df.category == 'income']['in_out'].iloc[0] if 'income' in df.category.unique() else 0.
+    needs = abs(df[df.category == 'needs']['in_out'].iloc[0]/income)*100 if 'needs' in df.category.unique() else 0.
+    wants = abs(df[df.category == 'wants']['in_out'].iloc[0]/income)*100 if 'wants' in df.category.unique() else 0.
+    savings = abs(df[df.category == 'savings']['in_out'].iloc[0]/income)*100 if 'savings' in df.category.unique() else 0.
 
-    thresholds = {'needs_pcg':50, 'wants_pcg':30, 'savings_pcg':20}
+    # thresholds = {'needs_pcg':50, 'wants_pcg':30, 'savings_pcg':20}
 
-    fig = px.pie(
-        data_frame=df,
-        values=['needs_pcg', 'wants_pcg', 'savings_pcg']
+    pcg_df = pd.DataFrame({'cat':['needs', 'wants', 'savings'], 'val':[needs,wants,savings]})#[abs(needs/income)*100, abs(wants/income)*100, abs(savings/income)*100]})
+
+    fig = go.Figure(
+        data=[
+            go.Pie(
+                labels=pcg_df.cat,
+                values=pcg_df.val,
+                hole=.4
+            )
+        ]
     )
+    months = dict(zip([1,2,3,4,5,6,7,8,9,10,11,12], MONTHS))
+    title = f'Percentage of expenses by main categories | {df.account.iloc[0].upper()} | {months[df.month.iloc[0]]} {df.year.iloc[0]}'
+
+    fig.update_layout({'title':title})
+
+    # fig = px.pie(
+    #     data_frame=pcg_df,
+    #     values='val',
+    #     names='cat'
+    # )
     return fig
 
 def plot_categories(account_df, year, month):
@@ -207,10 +229,12 @@ print(account_balance(data))
 print('\nAccount balance by category\n')
 print(account_balance_by_categories(data))
 
+# print(data[(data.year == 2023) | (data.year == 2024)])
+# print(data)
 
 # plot_account_balance(account_balance(data), 2024).show()
 # plot_account_inout(account_balance(data), 2023).show()
-plot_account_category_pcg(account_balance_by_categories(data), 2024).show()
+plot_account_category_pcg(account_balance_by_categories(data), 2024, 3).show()
 
 
 # summary = create_monthly_summary(data, 2024, 3)

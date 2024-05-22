@@ -1,0 +1,197 @@
+date,year,month,account,category,description,currency,in,out
+2019-11-30,2019,11,sella,income,balance,EUR,17606.36,0.0
+2019-12-31,2019,12,sella,income,salary,EUR,921.0,0.0
+2019-12-31,2019,12,sella,savings,savings,EUR,0.0,12000.0
+2019-12-31,2019,12,sella,wants,balance,EUR,0.0,142.33
+2020-01-31,2020,1,sella,income,salary,EUR,1918.0,0.0
+2020-01-31,2020,1,sella,wants,balance,EUR,0.0,131.3
+2020-02-28,2020,2,sella,income,salary,EUR,1595.0,0.0
+2020-03-31,2020,3,sella,income,salary,EUR,1584.0,0.0
+2020-04-30,2020,4,sella,income,salary,EUR,1583.0,0.0
+2020-04-30,2020,4,sella,wants,balance,EUR,0.0,0.98
+2020-05-31,2020,5,sella,income,salary,EUR,1578.0,0.0
+2020-06-30,2020,6,sella,income,salary,EUR,1569.0,0.0
+2020-06-30,2020,6,sella,wants,balance,EUR,0.0,1056.0
+2020-07-31,2020,7,sella,income,salary,EUR,1563.0,0.0
+2020-07-31,2020,7,sella,wants,balance,EUR,0.0,439.5
+2020-08-31,2020,8,generali,wants,balance,EUR,0.0,71.1
+2020-08-31,2020,8,sella,income,salary,EUR,4306.48,0.0
+2020-08-31,2020,8,sella,wants,balance,EUR,0.0,8094.8
+2020-09-30,2020,9,sella,income,salary,EUR,370.3,0.0
+2020-09-30,2020,9,sella,wants,balance,EUR,0.0,1716.87
+2020-10-31,2020,10,sella,income,salary,EUR,3921.67,0.0
+2020-10-31,2020,10,sella,wants,balance,EUR,0.0,150.6
+2020-11-30,2020,11,sella,income,salary,EUR,1576.0,0.0
+2020-11-30,2020,11,sella,wants,balance,EUR,0.0,962.0
+2020-12-31,2020,12,generali,income,transfer,EUR,12000.0,0.0
+2020-12-31,2020,12,generali,savings,savings,EUR,0.0,7000.0
+2020-12-31,2020,12,generali_SAV,income,from generali - savings,EUR,7000.0,0.0
+2020-12-31,2020,12,sella,income,salary,EUR,1699.18,0.0
+2020-12-31,2020,12,sella,wants,balance,EUR,0.0,1154.0
+2021-01-31,2021,1,generali,wants,balance,EUR,0.0,34.2
+2021-01-31,2021,1,sella,income,salary,EUR,1640.0,0.0
+2021-01-31,2021,1,sella,wants,balance,EUR,0.0,1641.7
+2021-02-28,2021,2,generali,wants,balance,EUR,0.0,15.8
+2021-02-28,2021,2,sella,income,salary,EUR,2447.45,0.0
+2021-03-31,2021,3,sella,income,salary,EUR,1706.0,0.0
+2021-04-30,2021,4,sella,income,salary,EUR,1781.0,0.0
+2021-04-30,2021,4,sella,wants,balance,EUR,0.0,1286.39
+2021-05-31,2021,5,generali,wants,balance,EUR,0.0,450.0
+2021-05-31,2021,5,sella,income,salary,EUR,2181.7,0.0
+2021-05-31,2021,5,sella,wants,balance,EUR,0.0,2163.15
+2021-06-30,2021,6,sella,income,salary,EUR,1651.58,0.0
+2021-06-30,2021,6,sella,wants,balance,EUR,0.0,7429.15
+2021-07-31,2021,7,sella,income,salary,EUR,1744.85,0.0
+2021-07-31,2021,7,sella,wants,balance,EUR,0.0,2185.5
+2021-08-31,2021,8,sella,income,salary,EUR,1716.17,0.0
+2021-08-31,2021,8,sella,wants,balance,EUR,0.0,520.13
+2021-09-30,2021,9,sella,income,salary,EUR,2748.75,0.0
+2021-10-31,2021,10,sella,income,salary,EUR,3108.42,0.0
+2021-10-31,2021,10,sella,wants,balance,EUR,0.0,3694.27
+2021-11-30,2021,11,sella,income,salary,EUR,1863.48,0.0
+2021-11-30,2021,11,sella,wants,balance,EUR,0.0,3079.85
+2021-12-31,2021,12,generali,income,from sella - transfer,EUR,12000.0,0.0
+2021-12-31,2021,12,generali,savings,savings,EUR,0.0,13400.0
+2021-12-31,2021,12,generali_SAV,income,from generali - savings,EUR,13400.0,0.0
+2021-12-31,2021,12,sella,income,salary,EUR,1186.1999999999998,0.0
+2021-12-31,2021,12,sella,savings,savings,EUR,0.0,12000.0
+2021-12-31,2021,12,sella,wants,balance,EUR,0.0,1462.9
+2022-01-31,2022,1,generali,wants,balance,EUR,0.0,48.0
+2022-01-31,2022,1,sella,income,salary,EUR,1627.71,0.0
+2022-01-31,2022,1,sella,wants,balance,EUR,0.0,531.37
+2022-02-28,2022,2,sella,income,salary,EUR,2089.3,0.0
+2022-02-28,2022,2,sella,wants,balance,EUR,0.0,525.72
+2022-03-31,2022,3,sella,income,salary,EUR,1744.19,0.0
+2022-03-31,2022,3,sella,wants,balance,EUR,0.0,1884.97
+2022-04-30,2022,4,sella,income,salary,EUR,1733.0,0.0
+2022-04-30,2022,4,sella,wants,balance,EUR,0.0,466.97
+2022-05-31,2022,5,sella,income,salary,EUR,1728.0,0.0
+2022-05-31,2022,5,sella,wants,balance,EUR,0.0,9.82
+2022-06-30,2022,6,sella,income,house sale,EUR,19483.68,0.0
+2022-06-30,2022,6,sella,wants,balance,EUR,0.0,233.64999999999998
+2022-07-31,2022,7,sella,income,salary,EUR,7498.380000000001,0.0
+2022-07-31,2022,7,sella,wants,balance,EUR,0.0,1912.43
+2022-08-31,2022,8,sella,income,salary,EUR,5918.410000000001,0.0
+2022-08-31,2022,8,sella,wants,balance,EUR,0.0,2450.9700000000003
+2022-09-30,2022,9,sella,income,salary,EUR,4551.91,0.0
+2022-09-30,2022,9,sella,wants,balance,EUR,0.0,1432.8899999999999
+2022-10-31,2022,10,sella,income,salary,EUR,4033.77,0.0
+2022-10-31,2022,10,sella,wants,balance,EUR,0.0,2908.5200000000004
+2022-11-30,2022,11,sella,income,salary,EUR,4376.63,0.0
+2022-11-30,2022,11,sella,wants,balance,EUR,0.0,2445.54
+2022-12-31,2022,12,generali,income,from sella - transfer,EUR,35000.0,0.0
+2022-12-31,2022,12,generali,savings,savings,EUR,0.0,33000.0
+2022-12-31,2022,12,generali,wants,balance,EUR,0.0,99.9
+2022-12-31,2022,12,generali_SAV,income,from generali - savings,EUR,33000.0,0.0
+2022-12-31,2022,12,sella,income,salary,EUR,598.64,0.0
+2022-12-31,2022,12,sella,savings,savings,EUR,0.0,35000.0
+2022-12-31,2022,12,sella,wants,balance,EUR,0.0,888.1399999999999
+2023-01-31,2023,1,sella,income,salary,EUR,1978.0,0.0
+2023-01-31,2023,1,sella,wants,balance,EUR,0.0,581.27
+2023-02-28,2023,2,sella,income,salary,EUR,2397.0,0.0
+2023-02-28,2023,2,sella,wants,balance,EUR,0.0,85.14999999999999
+2023-03-31,2023,3,sella,income,salary,EUR,2237.0,0.0
+2023-03-31,2023,3,sella,wants,balance,EUR,0.0,1786.0199999999998
+2023-04-30,2023,4,generali,wants,balance,EUR,0.0,239.84
+2023-04-30,2023,4,sella,income,salary,EUR,2350.0,0.0
+2023-04-30,2023,4,sella,wants,balance,EUR,0.0,1279.61
+2023-05-31,2023,5,sella,income,salary,EUR,2249.0,0.0
+2023-05-31,2023,5,sella,wants,balance,EUR,0.0,8956.02
+2023-06-30,2023,6,generali,wants,balance,EUR,0.0,1303.0
+2023-06-30,2023,6,sella,income,salary,EUR,3326.98,0.0
+2023-06-30,2023,6,sella,wants,balance,EUR,0.0,2120.7100000000005
+2023-07-31,2023,7,generali,wants,balance,EUR,0.0,274.98
+2023-07-31,2023,7,sella,income,salary,EUR,3947.08,0.0
+2023-07-31,2023,7,sella,wants,balance,EUR,0.0,2949.81
+2023-08-31,2023,8,generali,wants,balance,EUR,0.0,4.949999999999999
+2023-08-31,2023,8,sella,income,salary,EUR,1262.8799999999999,0.0
+2023-08-31,2023,8,sella,wants,balance,EUR,0.0,2773.58
+2023-09-30,2023,9,generali,wants,balance,EUR,0.0,999.0
+2023-09-30,2023,9,sella,income,salary,EUR,1311.71,0.0
+2023-09-30,2023,9,sella,wants,balance,EUR,0.0,1481.9399999999998
+2023-10-31,2023,10,sella,income,salary,EUR,1311.71,0.0
+2023-10-31,2023,10,sella,wants,balance,EUR,0.0,1685.6699999999998
+2023-11-30,2023,11,generali,wants,balance,EUR,0.0,6.46
+2023-11-30,2023,11,revolut_GBP,income,from sella - transfer,GBP,600.0,0.0
+2023-11-30,2023,11,revolut_GBP,wants,balance,GBP,0.0,185.45
+2023-11-30,2023,11,sella,income,salary,EUR,1311.71,0.0
+2023-11-30,2023,11,sella,wants,balance,EUR,0.0,1787.1199999999997
+2023-12-31,2023,12,revolut_GBP,wants,balance,GBP,0.0,12.17
+2023-12-31,2023,12,sella,income,salary,EUR,1717.15,0.0
+2023-12-31,2023,12,sella,wants,balance,EUR,0.0,1809.6497273029597
+2024-01-31,2024,1,generali,wants,balance,EUR,0.0,115.9
+2024-01-31,2024,1,revolut_GBP,income,salary GWR,GBP,3649.93,0.0
+2024-01-31,2024,1,revolut_GBP,wants,balance,GBP,0.0,1126.21
+2024-01-31,2024,1,sella,income,salary,EUR,1505.54,0.0
+2024-01-31,2024,1,sella,wants,balance,EUR,0.0,1330.4700000000003
+2024-02-29,2024,2,revolut_EUR,income,from revolut_GBP - transfer,EUR,479.33,0.0
+2024-02-29,2024,2,revolut_EUR,wants,balance,EUR,0.0,478.15
+2024-02-29,2024,2,revolut_GBP,wants,balance,GBP,0.0,494.78
+2024-02-29,2024,2,sella,income,salary,EUR,1141.1399999999999,0.0
+2024-02-29,2024,2,sella,needs,rent and deposit,EUR,0.0,4848.0
+2024-02-29,2024,2,sella,wants,balance,EUR,0.0,912.1599999999999
+2024-03-08,2024,3,sella,wants,netflix,EUR,0.0,9.5
+2024-03-12,2024,3,sella,income,rent,EUR,2424.0,0.0
+2024-03-14,2024,3,revolut_EUR,income,from revolut_GBP - transfer,EUR,1001.33,0.0
+2024-03-14,2024,3,revolut_EUR,wants,balance,EUR,0.0,599.84
+2024-03-14,2024,3,revolut_GBP,wants,balance,GBP,0.0,1197.0
+2024-03-14,2024,3,sella,income,salary,EUR,98.63,0.0
+2024-03-15,2024,3,revolut_EUR,needs,groceries,EUR,0.0,74.50999999999999
+2024-03-15,2024,3,sella,income,salary,EUR,550.53,0.0
+2024-03-15,2024,3,sella,wants,amazon prime,EUR,0.0,49.9
+2024-03-17,2024,3,revolut_EUR,wants,dunner out,EUR,0.0,33.05
+2024-03-18,2024,3,revolut_EUR,needs,house and groceries,EUR,0.0,117.02
+2024-03-18,2024,3,sella,needs,bed sheets and house stuff,EUR,0.0,99.0
+2024-03-19,2024,3,revolut_EUR,wants,out,EUR,0.0,17.65
+2024-03-20,2024,3,sella,wants,dub-mil-dub,EUR,0.0,353.73
+2024-03-21,2024,3,revolut_EUR,needs,doctor,EUR,0.0,40.0
+2024-03-21,2024,3,sella,needs,doctor,EUR,0.0,150.0
+2024-03-22,2024,3,revolut_EUR,wants,out,EUR,0.0,43.7
+2024-03-22,2024,3,sella,needs,gas,EUR,0.0,150.0
+2024-03-24,2024,3,revolut_EUR,needs,groceries,EUR,0.0,34.94
+2024-03-27,2024,3,sella,income,salary,EUR,3498.95,0.0
+2024-03-27,2024,3,sella,needs,pharmacy,EUR,0.0,60.61
+2024-03-27,2024,3,sella,wants,gifts,EUR,0.0,84.0
+2024-03-28,2024,3,revolut_EUR,wants,out,EUR,0.0,31.0
+2024-03-29,2024,3,revolut_EUR,needs,groceries,EUR,0.0,7.9
+2024-03-29,2024,3,sella,needs,rent,EUR,0.0,2424.0
+2024-03-31,2024,3,sella,wants,out pavia,EUR,0.0,178.51
+2024-04-01,2024,4,sella,wants,flowers mum,EUR,0.0,12.0
+2024-04-01,2024,4,sella,wants,out pavia,EUR,0.0,13.1
+2024-04-02,2024,4,revolut_EUR,income,from sella - transfer,EUR,500.0,0.0
+2024-04-02,2024,4,sella,needs,lunch,EUR,0.0,12.39
+2024-04-02,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0.0,500.0
+2024-04-03,2024,4,revolut_EUR,wants,out,EUR,0.0,18.3
+2024-04-03,2024,4,sella,income,rent,EUR,1212.0,0.0
+2024-04-03,2024,4,sella,needs,fine,EUR,0.0,307.13
+2024-04-04,2024,4,revolut_EUR,needs,groceries,EUR,0.0,50.56
+2024-04-05,2024,4,revolut_EUR,wants,iliad,EUR,0.0,15.0
+2024-04-05,2024,4,revolut_EUR,wants,out,EUR,0.0,49.2
+2024-04-05,2024,4,sella,needs,bank taxes,EUR,0.0,7.5
+2024-04-06,2024,4,revolut_EUR,needs,groceries,EUR,0.0,21.13
+2024-04-07,2024,4,revolut_EUR,needs,groceries,EUR,0.0,40.89
+2024-04-07,2024,4,sella,wants,netflix,EUR,0.0,9.54
+2024-04-08,2024,4,revolut_EUR,wants,travel,EUR,0.0,112.31
+2024-04-09,2024,4,revolut_EUR,wants,food out,EUR,0.0,43.18
+2024-04-09,2024,4,sella,needs,hotel istanbul airport,EUR,0.0,280.0
+2024-04-10,2024,4,revolut_EUR,wants,money change,EUR,0.0,50.0
+2024-04-12,2024,4,revolut_EUR,wants,ATM withdrawal,EUR,0.0,94.01
+2024-04-16,2024,4,sella,income,salary,EUR,59.18,0.0
+2024-04-22,2024,4,sella,income,amazon refund,EUR,12.17,0.0
+2024-04-25,2024,4,sella,wants,amazon,EUR,0.0,92.1
+2024-04-26,2024,4,sella,income,salary,EUR,5388.15,0.0
+2024-04-27,2024,4,sella,wants,food out,EUR,0.0,45.83
+2024-04-28,2024,4,sella,income,bank refund,EUR,5.03,0.0
+2024-04-28,2024,4,sella,wants,clothes,EUR,0.0,33.97
+2024-04-28,2024,4,sella,wants,fuel,EUR,0.0,25.0
+2024-04-28,2024,4,sella,wants,gelato,EUR,0.0,5.0
+2024-04-29,2024,4,revolut_EUR,income,from sella - transfer,EUR,500.0,0.0
+2024-04-29,2024,4,sella,needs,gas bill,EUR,0.0,200.0
+2024-04-29,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0.0,500.0
+2024-04-29,2024,4,sella,wants,house shopping,EUR,0.0,3.0
+2024-04-30,2024,4,revolut_EUR,wants,internet,EUR,0.0,12.99
+2024-04-30,2024,4,sella,income,rent,EUR,1312.0,0.0
+2024-04-30,2024,4,sella,needs,rent,EUR,0.0,2424.0
+2024-04-30,2024,4,sella,wants,bike tyres,EUR,0.0,350.0
+2024-04-30,2024,4,sella,wants,dinner out,EUR,0.0,31.0
+2024-05-03,2024,5,revolut_EUR,wants,out,EUR,0.0,10.0
