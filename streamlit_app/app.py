@@ -16,26 +16,6 @@ def import_data(filename):
 
     return df
 
-# @st.cache_data(show_spinner='Loading data...')
-# def create_main_in_out_df(filename):
-#     '''
-#     Import data from excel file and return the main dataframe
-#     year | month | account | category | description | date | currency | in | out
-#     '''
-#     incomes = pd.read_excel(filename, sheet_name='incomes')
-#     expenses = pd.read_excel(filename, sheet_name='expenses')
-
-#     expenses['out'] = expenses.amount
-#     incomes['in'] = incomes.amount
-
-#     df = pd.concat([incomes,expenses])
-#     df['month'] = df.date.dt.month
-#     df['year'] = df.date.dt.year
-
-#     return df.groupby(['year', 'month', 'account', 'category', 'description']).agg({'date':'last','currency':'last','in':'sum','out':'sum'}).reset_index()
-#     return df.groupby(['year', 'month', 'account', 'category']).agg({'date':'last','currency':'last','description':'last','in':'sum','out':'sum'}).reset_index()
-
-
 # @st.experimental_fragment
 @st.cache_data(show_spinner='Creating database...')
 def create_account_df(account_name, df):
@@ -67,9 +47,9 @@ def calculate_category_pcg(df):
     grouped_df = grouped_df.drop(['date','account','category','description','currency','in','out'],axis=1).fillna(0.0)
     return grouped_df
 
-@st.experimental_fragment
 ### TO DO ###
 # Add currency information in the hover text
+@st.experimental_fragment
 def plot_account_balance(account_df, years):
     dfs=[]
     for y in years:
@@ -127,24 +107,36 @@ def plot_account_inout(account_df, year):
 
     return fig
 
+@st.cache_data
+def create_summary(df):
+    summary = []
+    for account in df.account.unique():
+        account_df = create_account_df(account, df)
+        summary.append(
+            {
+                'account':account, 
+                'currency':account_df.currency.iloc[-1], 
+                'date':account_df.index[-1].strftime("%b %d, %Y"),
+                'balance':account_df.balance.iloc[-1]
+            }
+        )
+    
+    return summary
 
-# try:
-#     df = pd.read_csv('data.csv')
-#     st.session_state['df'] = df
-# except:
-#     filename = st.sidebar.file_uploader(label='Upload your data file', key='filename')
 
 filename = st.sidebar.file_uploader(label='Upload your data file', key='filename')
 
 if filename:
-    # df = create_main_in_out_df(filename)
     df = import_data(filename)
     st.session_state['df'] = df
-    # df.to_csv('data.csv', index=False)
 elif 'df' in st.session_state:
     df = st.session_state.df
+
 try:
-    st.dataframe(df)
+    # st.dataframe(df)
+    st.html('<h3>Summary</h3>')
+    for d in create_summary(df):
+        st.write(f'{d["account"].upper()}: {d["balance"]:.2f} {d["currency"]} as of {d["date"]}')
     accounts = ['all']
     for a in df.account.unique():
         accounts.append(a)
@@ -159,7 +151,8 @@ try:
         account_df = create_account_df(selected_account, df)
         # st.sidebar.write(f'Balance as of {account_df.date.iloc[-1].strftime("%b %d, %Y")}: {account_df.balance.iloc[-1]:.2f} {account_df.currency.iloc[-1]}')
         st.sidebar.write(f'Balance as of {account_df.index[-1].strftime("%b %d, %Y")}: {account_df.balance.iloc[-1]:.2f} {account_df.currency.iloc[-1]}')
-        st.write(f'Complete financial records for {selected_account.upper()} account')
+        st.html(f'<h3>Complete financial records for {selected_account.upper()} account</h3>')
+        # st.write(f'Complete financial records for {selected_account.upper()} account')
         
         st.dataframe(account_df)
         selected_years = st.sidebar.multiselect(label='Year', options=account_df.year.unique(), default=max(account_df.year))

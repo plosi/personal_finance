@@ -71,14 +71,24 @@ else:
 
     if st.button('Add'):
         add(date, selected_account, description, amount, selected_category, selected_in_out)
-    
-    # st.data_editor(st.session_state.tmp, num_rows='dynamic', key='tmp_df')
 
-    st.dataframe(st.session_state.tmp)#[st.session_state.tmp.account==selected_account])
-
-    st.dataframe(df[df.account==selected_account].tail(10))
+    ## display the new data
+    st.dataframe(st.session_state.tmp)
+    # st.data_editor(st.session_state.tmp, num_rows='dynamic', key='updated_tmp')
+    ### TO DO: add the possibility to remove a row
 
     if st.button('Save'):
         st.session_state.df = pd.concat([st.session_state.df, st.session_state.tmp], ignore_index=False)
         st.session_state.df.to_csv('output.csv')
-        # TO DO: CLEAR FORM
+
+        ## reset the dataframe to empty
+        st.session_state.tmp = pd.DataFrame()
+        st.rerun()
+    
+    if st.button('Cancel'):
+        ## reset the dataframe to empty
+        st.session_state.tmp = pd.DataFrame()
+        st.rerun()
+
+    ## display the updated dataframe
+    st.dataframe(df[df.account==selected_account].tail(5))

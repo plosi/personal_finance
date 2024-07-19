@@ -50,7 +50,6 @@ def account_balance(account_df):
 def account_balance_by_categories(account_df):
     return account_df.groupby(['year', 'month', 'account', 'currency', 'category']).agg({'in_out':'sum'}).reset_index()
 
-
 def create_monthly_summary(account_df, year, month):
     '''
     Return summary of in/out per year and month
