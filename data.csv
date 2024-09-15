@@ -1,325 +1,328 @@
 date,year,month,account,category,description,currency,in,out
 30/11/2019,2019,11,sella,income,balance,EUR,17606.36,0
 31/12/2019,2019,12,sella,salary,salary,EUR,921,0
+31/12/2019,2019,12,sella,savings,savings,EUR,0,12000
+31/12/2019,2019,12,sella,wants,balance,EUR,0,142.33
 31/01/2020,2020,1,sella,salary,salary,EUR,1918,0
+31/01/2020,2020,1,sella,wants,balance,EUR,0,131.3
 28/02/2020,2020,2,sella,salary,salary,EUR,1595,0
 31/03/2020,2020,3,sella,salary,salary,EUR,1584,0
 30/04/2020,2020,4,sella,salary,salary,EUR,1583,0
+30/04/2020,2020,4,sella,wants,balance,EUR,0,0.98
 31/05/2020,2020,5,sella,salary,salary,EUR,1578,0
 30/06/2020,2020,6,sella,salary,salary,EUR,1569,0
+30/06/2020,2020,6,sella,wants,balance,EUR,0,1056
 31/07/2020,2020,7,sella,salary,salary,EUR,1563,0
+31/07/2020,2020,7,sella,wants,balance,EUR,0,439.5
 31/08/2020,2020,8,sella,salary,salary,EUR,4306.48,0
+31/08/2020,2020,8,generali,wants,balance,EUR,0,71.1
+31/08/2020,2020,8,sella,wants,balance,EUR,0,8094.8
 30/09/2020,2020,9,sella,salary,salary,EUR,370.3,0
+30/09/2020,2020,9,sella,wants,balance,EUR,0,1716.87
 31/10/2020,2020,10,sella,salary,salary,EUR,3921.67,0
+31/10/2020,2020,10,sella,wants,balance,EUR,0,150.6
 30/11/2020,2020,11,sella,salary,salary,EUR,1576,0
+30/11/2020,2020,11,sella,wants,balance,EUR,0,962
 31/12/2020,2020,12,generali,transfer,transfer,EUR,12000,0
 31/12/2020,2020,12,generali_SAV,income,from generali - savings,EUR,7000,0
 31/12/2020,2020,12,sella,salary,salary,EUR,1699.18,0
+31/12/2020,2020,12,generali,savings,savings,EUR,0,7000
+31/12/2020,2020,12,sella,wants,balance,EUR,0,1154
 31/01/2021,2021,1,sella,salary,salary,EUR,1640,0
+31/01/2021,2021,1,generali,wants,balance,EUR,0,34.2
+31/01/2021,2021,1,sella,wants,balance,EUR,0,1641.7
 28/02/2021,2021,2,sella,salary,salary,EUR,2447.45,0
+28/02/2021,2021,2,generali,wants,balance,EUR,0,15.8
 31/03/2021,2021,3,sella,salary,salary,EUR,1706,0
 30/04/2021,2021,4,sella,salary,salary,EUR,1781,0
+30/04/2021,2021,4,sella,wants,balance,EUR,0,1286.39
 31/05/2021,2021,5,sella,salary,salary,EUR,2181.7,0
+31/05/2021,2021,5,generali,wants,balance,EUR,0,450
+31/05/2021,2021,5,sella,wants,balance,EUR,0,2163.15
 30/06/2021,2021,6,sella,salary,salary,EUR,1651.58,0
+30/06/2021,2021,6,sella,wants,balance,EUR,0,7429.15
 31/07/2021,2021,7,sella,salary,salary,EUR,1744.85,0
+31/07/2021,2021,7,sella,wants,balance,EUR,0,2185.5
 31/08/2021,2021,8,sella,salary,salary,EUR,1716.17,0
+31/08/2021,2021,8,sella,wants,balance,EUR,0,520.13
 30/09/2021,2021,9,sella,salary,salary,EUR,2748.75,0
 31/10/2021,2021,10,sella,salary,salary,EUR,3108.42,0
+31/10/2021,2021,10,sella,wants,balance,EUR,0,3694.27
 30/11/2021,2021,11,sella,salary,salary,EUR,1863.48,0
+30/11/2021,2021,11,sella,wants,balance,EUR,0,3079.85
 31/12/2021,2021,12,generali,transfer,from sella - transfer,EUR,12000,0
 31/12/2021,2021,12,generali_SAV,income,from generali - savings,EUR,13400,0
 31/12/2021,2021,12,sella,salary,salary,EUR,1186.2,0
+31/12/2021,2021,12,generali,savings,savings,EUR,0,13400
+31/12/2021,2021,12,sella,savings,savings,EUR,0,12000
+31/12/2021,2021,12,sella,wants,balance,EUR,0,1462.9
 31/01/2022,2022,1,sella,salary,salary,EUR,1627.71,0
+31/01/2022,2022,1,generali,wants,balance,EUR,0,48
+31/01/2022,2022,1,sella,wants,balance,EUR,0,531.37
 28/02/2022,2022,2,sella,salary,salary,EUR,2089.3,0
+28/02/2022,2022,2,sella,wants,balance,EUR,0,525.72
 31/03/2022,2022,3,sella,salary,salary,EUR,1744.19,0
+31/03/2022,2022,3,sella,wants,balance,EUR,0,1884.97
 30/04/2022,2022,4,sella,salary,salary,EUR,1733,0
+30/04/2022,2022,4,sella,wants,balance,EUR,0,466.97
 31/05/2022,2022,5,sella,salary,salary,EUR,1728,0
+31/05/2022,2022,5,sella,wants,balance,EUR,0,9.82
 30/06/2022,2022,6,sella,income,house sale,EUR,19483.68,0
+30/06/2022,2022,6,sella,wants,balance,EUR,0,233.65
 31/07/2022,2022,7,sella,salary,salary,EUR,7498.38,0
+31/07/2022,2022,7,sella,wants,balance,EUR,0,1912.43
 31/08/2022,2022,8,sella,salary,salary,EUR,5918.41,0
+31/08/2022,2022,8,sella,wants,balance,EUR,0,2450.97
 30/09/2022,2022,9,sella,salary,salary,EUR,4551.91,0
+30/09/2022,2022,9,sella,wants,balance,EUR,0,1432.89
 31/10/2022,2022,10,sella,salary,salary,EUR,4033.77,0
+31/10/2022,2022,10,sella,wants,balance,EUR,0,2908.52
 30/11/2022,2022,11,sella,salary,salary,EUR,4376.63,0
+30/11/2022,2022,11,sella,wants,balance,EUR,0,2445.54
 31/12/2022,2022,12,generali,transfer,from sella - transfer,EUR,35000,0
 31/12/2022,2022,12,generali_SAV,income,from generali - savings,EUR,33000,0
 31/12/2022,2022,12,sella,salary,salary,EUR,598.64,0
-31/01/2023,2023,1,sella,salary,salary,EUR,1978,0
-28/02/2023,2023,2,sella,salary,salary,EUR,2397,0
-31/03/2023,2023,3,sella,salary,salary,EUR,2237,0
-30/04/2023,2023,4,sella,salary,salary,EUR,2350,0
-31/05/2023,2023,5,sella,salary,salary,EUR,2249,0
-30/06/2023,2023,6,sella,salary,salary,EUR,3326.98,0
-31/07/2023,2023,7,sella,salary,salary,EUR,3947.08,0
-31/08/2023,2023,8,sella,salary,salary,EUR,1262.88,0
-30/09/2023,2023,9,sella,salary,salary,EUR,1311.71,0
-31/10/2023,2023,10,sella,salary,salary,EUR,1311.71,0
-30/11/2023,2023,11,revolut_GBP,transfer,from sella - transfer,GBP,600,0
-30/11/2023,2023,11,sella,salary,salary,EUR,1311.71,0
-31/12/2023,2023,12,sella,salary,salary,EUR,1717.15,0
-31/01/2024,2024,1,revolut_GBP,salary,salary GWR,GBP,3649.93,0
-31/01/2024,2024,1,sella,salary,salary,EUR,1505.54,0
-29/02/2024,2024,2,revolut_EUR,transfer,from revolut_GBP - transfer,EUR,479.33,0
-29/02/2024,2024,2,sella,salary,salary,EUR,1141.14,0
-12/03/2024,2024,3,sella,needs,rent,EUR,2424,0
-14/03/2024,2024,3,revolut_EUR,transfer,from revolut_GBP - transfer,EUR,1001.33,0
-14/03/2024,2024,3,sella,salary,salary,EUR,98.63,0
-15/03/2024,2024,3,sella,salary,salary,EUR,550.53,0
-27/03/2024,2024,3,sella,salary,salary,EUR,3498.95,0
-02/04/2024,2024,4,revolut_EUR,transfer,from sella - transfer,EUR,500,0
-03/04/2024,2024,4,sella,needs,rent,EUR,1212,0
-16/04/2024,2024,4,sella,salary,salary,EUR,59.18,0
-22/04/2024,2024,4,sella,refund,amazon refund,EUR,12.17,0
-26/04/2024,2024,4,sella,salary,salary,EUR,5388.15,0
-28/04/2024,2024,4,sella,refund,bank refund,EUR,5.03,0
-29/04/2024,2024,4,revolut_EUR,transfer,from sella - transfer,EUR,500,0
-30/04/2024,2024,4,sella,needs,rent,EUR,1312,0
-29/02/2024,2024,2,sella,needs,rent and deposit,EUR,0,4848
-15/03/2024,2024,3,revolut_EUR,needs,groceries,EUR,0,74.51
-18/03/2024,2024,3,revolut_EUR,needs,house and groceries,EUR,0,117.02
-18/03/2024,2024,3,sella,needs,bed sheets and house stuff,EUR,0,99
-21/03/2024,2024,3,revolut_EUR,needs,doctor,EUR,0,40
-21/03/2024,2024,3,sella,needs,doctor,EUR,0,150
-22/03/2024,2024,3,sella,bills,gas bill,EUR,0,150
-24/03/2024,2024,3,revolut_EUR,needs,groceries,EUR,0,34.94
-27/03/2024,2024,3,sella,needs,pharmacy,EUR,0,60.61
-29/03/2024,2024,3,revolut_EUR,needs,groceries,EUR,0,7.9
-29/03/2024,2024,3,sella,needs,rent,EUR,0,2424
-02/04/2024,2024,4,sella,needs,lunch,EUR,0,12.39
-03/04/2024,2024,4,sella,needs,fine,EUR,0,307.13
-04/04/2024,2024,4,revolut_EUR,needs,groceries,EUR,0,50.56
-05/04/2024,2024,4,sella,needs,bank taxes,EUR,0,7.5
-06/04/2024,2024,4,revolut_EUR,needs,groceries,EUR,0,21.13
-07/04/2024,2024,4,revolut_EUR,needs,groceries,EUR,0,40.89
-09/04/2024,2024,4,sella,needs,hotel istanbul airport,EUR,0,280
-29/04/2024,2024,4,sella,bills,gas bill,EUR,0,200
-30/04/2024,2024,4,sella,needs,rent,EUR,0,2424
-06/05/2024,2024,5,revolut_EUR,needs,groceries,EUR,0,10.3
-10/05/2024,2024,5,revolut_EUR,needs,groceries,EUR,0,54.6
-14/05/2024,2024,5,revolut_EUR,needs,groceries,EUR,0,4.25
-18/05/2024,2024,5,sella,needs,groceries,EUR,0,36.2
-21/05/2024,2024,5,sella,needs,groceries,EUR,0,7.87
-22/05/2024,2024,5,sella,needs,groceries,EUR,0,9.5
-24/05/2024,2024,5,sella,needs,groceries,EUR,0,16.58
-25/05/2024,2024,5,sella,needs,groceries,EUR,0,58.61
-27/05/2024,2024,5,sella,needs,groceries,EUR,0,9.42
-17/05/2024,2024,5,revolut_EUR,needs,groceries,EUR,0,18.65
-22/05/2024,2024,5,revolut_EUR,needs,groceries,EUR,0,7.35
-31/12/2019,2019,12,sella,savings,savings,EUR,0,12000
-31/12/2020,2020,12,generali,savings,savings,EUR,0,7000
-31/12/2021,2021,12,generali,savings,savings,EUR,0,13400
-31/12/2021,2021,12,sella,savings,savings,EUR,0,12000
 31/12/2022,2022,12,generali,savings,savings,EUR,0,33000
 31/12/2022,2022,12,sella,savings,savings,EUR,0,35000
-02/04/2024,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0,500
-29/04/2024,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0,500
-31/12/2019,2019,12,sella,wants,balance,EUR,0,142.33
-31/01/2020,2020,1,sella,wants,balance,EUR,0,131.3
-30/04/2020,2020,4,sella,wants,balance,EUR,0,0.98
-30/06/2020,2020,6,sella,wants,balance,EUR,0,1056
-31/07/2020,2020,7,sella,wants,balance,EUR,0,439.5
-31/08/2020,2020,8,generali,wants,balance,EUR,0,71.1
-31/08/2020,2020,8,sella,wants,balance,EUR,0,8094.8
-30/09/2020,2020,9,sella,wants,balance,EUR,0,1716.87
-31/10/2020,2020,10,sella,wants,balance,EUR,0,150.6
-30/11/2020,2020,11,sella,wants,balance,EUR,0,962
-31/12/2020,2020,12,sella,wants,balance,EUR,0,1154
-31/01/2021,2021,1,generali,wants,balance,EUR,0,34.2
-31/01/2021,2021,1,sella,wants,balance,EUR,0,1641.7
-28/02/2021,2021,2,generali,wants,balance,EUR,0,15.8
-30/04/2021,2021,4,sella,wants,balance,EUR,0,1286.39
-31/05/2021,2021,5,generali,wants,balance,EUR,0,450
-31/05/2021,2021,5,sella,wants,balance,EUR,0,2163.15
-30/06/2021,2021,6,sella,wants,balance,EUR,0,7429.15
-31/07/2021,2021,7,sella,wants,balance,EUR,0,2185.5
-31/08/2021,2021,8,sella,wants,balance,EUR,0,520.13
-31/10/2021,2021,10,sella,wants,balance,EUR,0,3694.27
-30/11/2021,2021,11,sella,wants,balance,EUR,0,3079.85
-31/12/2021,2021,12,sella,wants,balance,EUR,0,1462.9
-31/01/2022,2022,1,generali,wants,balance,EUR,0,48
-31/01/2022,2022,1,sella,wants,balance,EUR,0,531.37
-28/02/2022,2022,2,sella,wants,balance,EUR,0,525.72
-31/03/2022,2022,3,sella,wants,balance,EUR,0,1884.97
-30/04/2022,2022,4,sella,wants,balance,EUR,0,466.97
-31/05/2022,2022,5,sella,wants,balance,EUR,0,9.82
-30/06/2022,2022,6,sella,wants,balance,EUR,0,233.65
-31/07/2022,2022,7,sella,wants,balance,EUR,0,1912.43
-31/08/2022,2022,8,sella,wants,balance,EUR,0,2450.97
-30/09/2022,2022,9,sella,wants,balance,EUR,0,1432.89
-31/10/2022,2022,10,sella,wants,balance,EUR,0,2908.52
-30/11/2022,2022,11,sella,wants,balance,EUR,0,2445.54
 31/12/2022,2022,12,generali,wants,balance,EUR,0,99.9
 31/12/2022,2022,12,sella,wants,balance,EUR,0,888.14
+31/01/2023,2023,1,sella,salary,salary,EUR,1978,0
 31/01/2023,2023,1,sella,wants,balance,EUR,0,581.27
+28/02/2023,2023,2,sella,salary,salary,EUR,2397,0
 28/02/2023,2023,2,sella,wants,balance,EUR,0,85.15
+31/03/2023,2023,3,sella,salary,salary,EUR,2237,0
 31/03/2023,2023,3,sella,wants,balance,EUR,0,1786.02
+30/04/2023,2023,4,sella,salary,salary,EUR,2350,0
 30/04/2023,2023,4,generali,wants,balance,EUR,0,239.84
 30/04/2023,2023,4,sella,wants,balance,EUR,0,1279.61
+31/05/2023,2023,5,sella,salary,salary,EUR,2249,0
 31/05/2023,2023,5,sella,wants,balance,EUR,0,8956.02
+30/06/2023,2023,6,sella,salary,salary,EUR,3326.98,0
 30/06/2023,2023,6,generali,wants,balance,EUR,0,1303
 30/06/2023,2023,6,sella,wants,balance,EUR,0,2120.71
+31/07/2023,2023,7,sella,salary,salary,EUR,3947.08,0
 31/07/2023,2023,7,generali,wants,balance,EUR,0,274.98
 31/07/2023,2023,7,sella,wants,balance,EUR,0,2949.81
+31/08/2023,2023,8,sella,salary,salary,EUR,1262.88,0
 31/08/2023,2023,8,generali,wants,balance,EUR,0,4.95
 31/08/2023,2023,8,sella,wants,balance,EUR,0,2773.58
+30/09/2023,2023,9,sella,salary,salary,EUR,1311.71,0
 30/09/2023,2023,9,generali,wants,balance,EUR,0,999
 30/09/2023,2023,9,sella,wants,balance,EUR,0,1481.94
+31/10/2023,2023,10,sella,salary,salary,EUR,1311.71,0
 31/10/2023,2023,10,sella,wants,balance,EUR,0,1685.67
+30/11/2023,2023,11,revolut_GBP,transfer,from sella - transfer,GBP,600,0
+30/11/2023,2023,11,sella,salary,salary,EUR,1311.71,0
 30/11/2023,2023,11,generali,wants,balance,EUR,0,6.46
 30/11/2023,2023,11,revolut_GBP,wants,balance,GBP,0,185.45
 30/11/2023,2023,11,sella,wants,balance,EUR,0,1787.12
+31/12/2023,2023,12,sella,salary,salary,EUR,1717.15,0
 31/12/2023,2023,12,revolut_GBP,wants,balance,GBP,0,12.17
 31/12/2023,2023,12,sella,wants,balance,EUR,0,1809.65
+31/01/2024,2024,1,revolut_GBP,salary,salary GWR,GBP,3649.93,0
+31/01/2024,2024,1,sella,salary,salary,EUR,1505.54,0
 31/01/2024,2024,1,generali,wants,balance,EUR,0,115.9
 31/01/2024,2024,1,revolut_GBP,wants,balance,GBP,0,1126.21
 31/01/2024,2024,1,sella,wants,balance,EUR,0,1330.47
+29/02/2024,2024,2,revolut_EUR,transfer,from revolut_GBP - transfer,EUR,479.33,0
+29/02/2024,2024,2,sella,salary,salary,EUR,1141.14,0
+29/02/2024,2024,2,sella,rent,rent and deposit,EUR,0,4848
 29/02/2024,2024,2,revolut_EUR,wants,balance,EUR,0,478.15
 29/02/2024,2024,2,revolut_GBP,wants,balance,GBP,0,494.78
 29/02/2024,2024,2,sella,wants,balance,EUR,0,912.16
 08/03/2024,2024,3,sella,subscription,netflix,EUR,0,9.5
+12/03/2024,2024,3,sella,rent,rent,EUR,2424,0
+14/03/2024,2024,3,revolut_EUR,transfer,from revolut_GBP - transfer,EUR,1001.33,0
+14/03/2024,2024,3,sella,salary,salary,EUR,98.63,0
 14/03/2024,2024,3,revolut_EUR,wants,balance,EUR,0,599.84
 14/03/2024,2024,3,revolut_GBP,wants,balance,GBP,0,1197
+15/03/2024,2024,3,sella,salary,salary,EUR,550.53,0
+15/03/2024,2024,3,revolut_EUR,groceries,groceries,EUR,0,74.51
 15/03/2024,2024,3,sella,subscription,amazon prime,EUR,0,49.9
 17/03/2024,2024,3,revolut_EUR,wants,dinner out,EUR,0,33.05
+18/03/2024,2024,3,revolut_EUR,needs,house and groceries,EUR,0,117.02
+18/03/2024,2024,3,sella,needs,bed sheets and house stuff,EUR,0,99
 19/03/2024,2024,3,revolut_EUR,wants,out,EUR,0,17.65
 20/03/2024,2024,3,sella,wants,dub-mil-dub,EUR,0,353.73
+21/03/2024,2024,3,revolut_EUR,needs,doctor,EUR,0,40
+21/03/2024,2024,3,sella,needs,doctor,EUR,0,150
+22/03/2024,2024,3,sella,bills,gas bill,EUR,0,150
 22/03/2024,2024,3,revolut_EUR,wants,out,EUR,0,43.7
+24/03/2024,2024,3,revolut_EUR,groceries,groceries,EUR,0,34.94
+27/03/2024,2024,3,sella,salary,salary,EUR,3498.95,0
+27/03/2024,2024,3,sella,needs,pharmacy,EUR,0,60.61
 27/03/2024,2024,3,sella,wants,gifts,EUR,0,84
 28/03/2024,2024,3,revolut_EUR,wants,out,EUR,0,31
+29/03/2024,2024,3,revolut_EUR,groceries,groceries,EUR,0,7.9
+29/03/2024,2024,3,sella,rent,rent,EUR,0,2424
 31/03/2024,2024,3,sella,wants,out pavia,EUR,0,242.51
 01/04/2024,2024,4,sella,wants,flowers mum,EUR,0,12
 01/04/2024,2024,4,sella,wants,out pavia,EUR,0,13.1
+02/04/2024,2024,4,revolut_EUR,transfer,from sella - transfer,EUR,500,0
+02/04/2024,2024,4,sella,needs,lunch,EUR,0,12.39
+02/04/2024,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0,500
+03/04/2024,2024,4,sella,rent,rent,EUR,1212,0
+03/04/2024,2024,4,sella,needs,fine,EUR,0,307.13
 03/04/2024,2024,4,revolut_EUR,wants,out,EUR,0,18.3
+04/04/2024,2024,4,revolut_EUR,groceries,groceries,EUR,0,50.56
+05/04/2024,2024,4,sella,needs,bank taxes,EUR,0,7.5
 05/04/2024,2024,4,revolut_EUR,bills,iliad,EUR,0,15
 05/04/2024,2024,4,revolut_EUR,wants,out,EUR,0,49.2
+06/04/2024,2024,4,revolut_EUR,groceries,groceries,EUR,0,21.13
+07/04/2024,2024,4,revolut_EUR,groceries,groceries,EUR,0,40.89
 07/04/2024,2024,4,sella,subscription,netflix,EUR,0,9.54
 08/04/2024,2024,4,revolut_EUR,wants,travel,EUR,0,112.31
+09/04/2024,2024,4,sella,needs,hotel istanbul airport,EUR,0,280
 09/04/2024,2024,4,revolut_EUR,wants,food out,EUR,0,43.18
 10/04/2024,2024,4,revolut_EUR,wants,money change,EUR,0,50
 12/04/2024,2024,4,revolut_EUR,wants,ATM withdrawal,EUR,0,94.01
+16/04/2024,2024,4,sella,salary,salary,EUR,59.18,0
+22/04/2024,2024,4,sella,refund,amazon refund,EUR,12.17,0
+23/04/2024,2024,8,sella,wants,night out,EUR,0,37.7
+23/04/2024,2024,8,sella,needs,travel for work,EUR,0,10
 25/04/2024,2024,4,sella,wants,amazon shopping,EUR,0,92.1
+26/04/2024,2024,4,sella,salary,salary,EUR,5388.15,0
 27/04/2024,2024,4,sella,wants,food out,EUR,0,45.83
+28/04/2024,2024,4,sella,refund,bank refund,EUR,5.03,0
 28/04/2024,2024,4,sella,wants,clothes,EUR,0,33.97
 28/04/2024,2024,4,sella,wants,fuel,EUR,0,25
 28/04/2024,2024,4,sella,wants,gelato,EUR,0,5
+29/04/2024,2024,4,revolut_EUR,transfer,from sella - transfer,EUR,500,0
+29/04/2024,2024,4,sella,bills,gas bill,EUR,0,200
+29/04/2024,2024,4,sella,transfer,to revolut_EUR - transfer,EUR,0,500
 29/04/2024,2024,4,sella,wants,house shopping,EUR,0,3
+30/04/2024,2024,4,sella,rent,rent,EUR,1312,0
+30/04/2024,2024,4,sella,rent,rent,EUR,0,2424
 30/04/2024,2024,4,revolut_EUR,bills,internet,EUR,0,12.99
 30/04/2024,2024,4,sella,wants,dinner out,EUR,0,31
+30/04/2024,2024,4,revolut_GBP,wants,out,GBP,0,6.57
 03/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,10
 03/05/2024,2024,5,sella,wants,bike tyres,EUR,0,350
 04/05/2024,2024,5,revolut_EUR,wants,out + flights,EUR,0,287.42
 05/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,34.35
+06/05/2024,2024,5,revolut_EUR,groceries,groceries,EUR,0,10.3
 07/05/2024,2024,5,revolut_EUR,wants,coffee,EUR,0,4
 07/05/2024,2024,5,sella,subscription,netflix,EUR,0,9.57
 08/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,11.5
+10/05/2024,2024,5,revolut_EUR,groceries,groceries,EUR,0,54.6
 10/05/2024,2024,5,sella,wants,visa - cash withdraw chad,EUR,0,53.18
 11/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,7.2
 12/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,32.3
+14/05/2024,2024,5,revolut_EUR,groceries,groceries,EUR,0,4.25
 15/05/2024,2024,5,sella,wants,dub-mil-dub,EUR,0,211.85
 15/05/2024,2024,5,revolut_EUR,wants,out,EUR,0,3.5
 16/05/2024,2024,5,revolut_EUR,wants,groceries,EUR,0,7.6
+17/05/2024,2024,5,revolut_EUR,groceries,groceries,EUR,0,18.65
+18/05/2024,2024,5,sella,groceries,groceries,EUR,0,36.2
 18/05/2024,2024,5,sella,wants,plants,EUR,0,23.5
 18/05/2024,2024,5,sella,wants,plants,EUR,0,17.5
 18/05/2024,2024,5,sella,wants,drink out,EUR,0,14.7
 18/05/2024,2024,5,sella,wants,gift,EUR,0,7
 19/05/2024,2024,5,sella,wants,lunch out,EUR,0,16.7
+21/05/2024,2024,5,sella,groceries,groceries,EUR,0,7.87
 21/05/2024,2024,5,sella,wants,coffee,EUR,0,7.5
 21/05/2024,2024,5,sella,wants,blender,EUR,0,74.99
+22/05/2024,2024,5,sella,wants,groceries,EUR,0,9.5
+22/05/2024,2024,5,revolut_EUR,wants,groceries,EUR,0,7.35
+24/05/2024,2024,5,sella,groceries,groceries,EUR,0,16.58
 24/05/2024,2024,5,sella,wants,lunch,EUR,0,10.99
 24/05/2024,2024,5,sella,wants,drink out,EUR,0,5
+25/05/2024,2024,5,sella,groceries,groceries,EUR,0,58.61
 25/05/2024,2024,5,sella,wants,guitar,EUR,0,160
-30/04/2024,2024,4,revolut_GBP,wants,out,GBP,0,6.57
 25/05/2024,2024,5,revolut_GBP,wants,groceries,GBP,0,7.76
+27/05/2024,2024,5,sella,groceries,groceries,EUR,0,9.42
 29/05/2024,2024,5,sella,salary,salary,EUR,3640.46,0
-29/05/2024,2024,5,sella,needs,groceries,EUR,0,10.25
-30/05/2024,2024,5,sella,needs,groceries,EUR,0,5.35
+29/05/2024,2024,5,sella,groceries,groceries,EUR,0,10.25
+30/05/2024,2024,5,sella,groceries,groceries,EUR,0,5.35
 30/05/2024,2024,5,sella,wants,drink out,EUR,0,15
-31/05/2024,2024,5,sella,needs,rent,EUR,0,2424
+31/05/2024,2024,5,sella,rent,rent,EUR,0,2424
 31/05/2024,2024,5,sella,refund,blender refund,EUR,74.99,0
 31/05/2024,2024,5,sella,wants,lunch out,EUR,0,9.5
+31/05/2024,2024,5,revolut_GBP,bills,electric bills,GBP,0,85.22
 01/06/2024,2024,6,sella,transfer,to revolut_EUR - transfer,EUR,0,500
 01/06/2024,2024,6,revolut_EUR,transfer,from sella - transfer,EUR,500,0
-01/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,56.78
-31/05/2024,2024,5,revolut_GBP,bills,electric bills,GBP,0,85.22
-03/06/2024,2024,6,sella,needs,rent,EUR,1262,0
-06/06/2024,2024,6,sella,refund,blender,EUR,50,0
-07/06/2024,2024,6,sella,needs,groceries,EUR,0,13.45
-08/06/2024,2024,6,sella,subscription,netflix,EUR,0,9.49
-01/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,19
-01/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,14.2
+01/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,56.78
+01/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,19
+01/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,14.2
 01/06/2024,2024,6,revolut_EUR,wants,blender and chromecast,EUR,0,121.97
 02/06/2024,2024,6,revolut_EUR,subscription,google one,EUR,0,19.99
-03/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,21.35
-05/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,6.2
+03/06/2024,2024,6,sella,rent,rent,EUR,1262,0
+03/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,21.35
+05/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,6.2
 05/06/2024,2024,6,revolut_EUR,wants,concert tickets,EUR,0,66.75
 05/06/2024,2024,6,revolut_EUR,bills,iliad,EUR,0,20
+06/06/2024,2024,6,sella,refund,blender,EUR,50,0
+07/06/2024,2024,6,sella,groceries,groceries,EUR,0,13.45
+08/06/2024,2024,6,sella,subscription,netflix,EUR,0,9.49
 08/06/2024,2024,6,revolut_EUR,wants,motorbike tyres,EUR,0,40
 08/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,36.4
 08/06/2024,2024,6,revolut_EUR,wants,drink out,EUR,0,36
 10/06/2024,2024,6,revolut_EUR,wants,gift,EUR,0,10
-10/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,18.96
+10/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,18.96
 11/06/2024,2024,6,revolut_EUR,wants,ice cream,EUR,0,3.1
 12/06/2024,2024,6,revolut_EUR,wants,ice cream,EUR,0,3.1
-15/06/2024,2024,6,sella,needs,groceries,EUR,0,79.11
 14/06/2024,2024,6,revolut_EUR,wants,ice cream,EUR,0,3.11
-14/06/2024,2024,6,revolut_GBP,needs,groceries,GBP,0,14.67
-21/06/2024,2024,6,revolut_GBP,wants,cinema,GBP,0,27.12
-17/06/2024,2024,6,sella,needs,groceries,EUR,0,10.5
-18/06/2024,2024,6,sella,needs,groceries,EUR,0,9.5
+14/06/2024,2024,6,revolut_GBP,groceries,groceries,GBP,0,14.67
+15/06/2024,2024,6,sella,groceries,groceries,EUR,0,79.11
+17/06/2024,2024,6,sella,groceries,groceries,EUR,0,10.5
+18/06/2024,2024,6,sella,groceries,groceries,EUR,0,9.5
 19/06/2024,2024,6,sella,wants,drink out,EUR,0,6.5
 20/06/2024,2024,6,sella,wants,drink out,EUR,0,12.8
 20/06/2024,2024,6,sella,wants,drink out,EUR,0,3.5
+21/06/2024,2024,6,revolut_GBP,wants,cinema,GBP,0,27.12
 21/06/2024,2024,6,sella,wants,drink out,EUR,0,14
 21/06/2024,2024,6,sella,wants,drink out,EUR,0,14
 22/06/2024,2024,6,sella,wants,brunch,EUR,0,46.64
 23/06/2024,2024,6,sella,wants,food out,EUR,0,11.1
-23/06/2024,2024,6,sella,needs,groceries,EUR,0,14.07
-26/06/2024,2024,6,sella,salary,salary,EUR,4425.45,0
-26/06/2024,2024,6,sella,wants,kindle book,EUR,0,8.99
+23/06/2024,2024,6,sella,groceries,groceries,EUR,0,14.07
 24/06/2024,2024,6,revolut_GBP,transfer,exchange,GBP,0,100.12
 24/06/2024,2024,6,revolut_EUR,transfer,exchange,EUR,118,0
-24/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,29.63
+24/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,29.63
 25/06/2024,2024,6,revolut_EUR,wants,drink out,EUR,0,17.5
+26/06/2024,2024,6,sella,salary,salary,EUR,4425.45,0
+26/06/2024,2024,6,sella,wants,kindle book,EUR,0,8.99
 26/06/2024,2024,6,revolut_EUR,wants,ice cream,EUR,0,3.1
 27/06/2024,2024,6,revolut_EUR,subscription,internet,EUR,0,30
 27/06/2024,2024,6,revolut_EUR,wants,coffee,EUR,0,3.1
 27/06/2024,2024,6,revolut_EUR,wants,dinner out,EUR,20,0
 27/06/2024,2024,6,revolut_EUR,wants,dinner out,EUR,0,34.84
 27/06/2024,2024,6,revolut_EUR,wants,wine,EUR,0,12
-28/06/2024,2024,6,revolut_EUR,needs,groceries,EUR,0,10.09
-29/06/2024,2024,6,sella,wants,drink out,EUR,0,48.2
-30/06/2024,2024,6,sella,needs,groceries,EUR,0,57.76
-30/06/2024,2024,6,sella,needs,groceries,EUR,0,4.29
-01/07/2024,2024,7,sella,needs,taxes,EUR,0,697
-01/07/2024,2024,7,sella,needs,rent,EUR,1212,0
-01/07/2024,2024,7,sella,transfer,to revolut_EUR - transfer,EUR,0,500
-01/07/2024,2024,7,sella,needs,rent,EUR,0,2424
-01/07/2024,2024,7,revolut_EUR,transfer,from sella - transfer,EUR,500,0
+28/06/2024,2024,6,revolut_EUR,groceries,groceries,EUR,0,10.09
 28/06/2024,2024,6,revolut_GBP,wants,drink out,GBP,0,17.84
+29/06/2024,2024,6,sella,wants,drink out,EUR,0,48.2
 29/06/2024,2024,6,revolut_GBP,wants,pride,GBP,0,5.15
+30/06/2024,2024,6,sella,groceries,groceries,EUR,0,57.76
+30/06/2024,2024,6,sella,groceries,groceries,EUR,0,4.29
 30/06/2024,2024,6,revolut_GBP,wants,karaoke,GBP,0,8.61
 30/06/2024,2024,6,revolut_GBP,wants,theatre,GBP,0,44.81
-04/07/2024,2024,7,sella,needs,bank taxes,EUR,0,7.5
+30/06/2024,2024,6,generali_SAV,income,interests,EUR,10459.93,0
+01/07/2024,2024,7,sella,needs,taxes,EUR,0,697
+01/07/2024,2024,7,sella,rent,rent,EUR,1212,0
+01/07/2024,2024,7,sella,transfer,to revolut_EUR - transfer,EUR,0,500
+01/07/2024,2024,7,sella,rent,rent,EUR,0,2424
+01/07/2024,2024,7,revolut_EUR,transfer,from sella - transfer,EUR,500,0
 02/07/2024,2024,7,revolut_EUR,wants,dinner out,EUR,0,25.6
+04/07/2024,2024,7,sella,needs,bank taxes,EUR,0,7.5
 04/07/2024,2024,7,revolut_EUR,wants,drink out,EUR,0,9.5
 05/07/2024,2024,7,revolut_EUR,wants,gift,EUR,0,10
-05/07/2024,2024,7,revolut_EUR,needs,groceries,EUR,0,42.61
+05/07/2024,2024,7,revolut_EUR,groceries,groceries,EUR,0,42.61
 05/07/2024,2024,7,revolut_EUR,wants,lunch,EUR,0,10.99
-05/07/2024,2024,7,revolut_EUR,needs,iliad bill,EUR,0,20
+05/07/2024,2024,7,revolut_EUR,bills,iliad bill,EUR,0,20
 05/07/2024,2024,7,revolut_EUR,wants,drink out,EUR,0,27.2
-06/07/2024,2024,7,revolut_EUR,needs,groceries,EUR,0,24.9
+06/07/2024,2024,7,revolut_EUR,groceries,groceries,EUR,0,24.9
 07/07/2024,2024,7,revolut_EUR,wants,drink out,EUR,0,43.3
+07/07/2024,2024,7,sella,wants,dub-mil-dub,EUR,0,328.68
 08/07/2024,2024,7,revolut_EUR,wants,snack,EUR,0,3.59
-09/07/2024,2024,7,revolut_EUR,needs,groceries,EUR,0,21.19
+08/07/2024,2024,7,sella,subscription,netflix,EUR,0,9.52
+09/07/2024,2024,7,revolut_EUR,groceries,groceries,EUR,0,21.19
 09/07/2024,2024,7,revolut_EUR,wants,night out,EUR,0,36.4
 10/07/2024,2024,7,revolut_EUR,wants,lunch out,EUR,0,13.39
 10/07/2024,2024,7,revolut_EUR,wants,gift,EUR,0,10
+10/07/2024,2024,7,sella,wants,drink out,EUR,23,0
 11/07/2024,2024,7,revolut_EUR,wants,snack,EUR,0,4
 11/07/2024,2024,7,revolut_EUR,wants,bus to airport,EUR,0,10
 12/07/2024,2024,7,revolut_EUR,wants,duty free,EUR,0,44.1
-13/07/2024,2024,7,revolut_EUR,needs,electric bills,EUR,0,100
-07/07/2024,2024,7,sella,wants,dub-mil-dub,EUR,0,328.68
-08/07/2024,2024,7,sella,subscription,netflix,EUR,0,9.52
-10/07/2024,2024,7,sella,wants,drink out,EUR,23,0
+13/07/2024,2024,7,revolut_EUR,bills,electric bills,EUR,0,100
 13/07/2024,2024,7,sella,wants,gift,EUR,0,14
 13/07/2024,2024,7,sella,wants,clothes,EUR,0,12.57
 16/07/2024,2024,7,sella,wants,toothbrush,EUR,0,59.99
@@ -328,3 +331,74 @@ date,year,month,account,category,description,currency,in,out
 18/07/2024,2024,7,sella,wants,lunch out,EUR,0,21
 18/07/2024,2024,7,sella,wants,bike revision,EUR,0,80
 18/07/2024,2024,7,revolut_EUR,wants,car rental,EUR,0,30.77
+20/07/2024,2024,7,sella,wants,fuel,EUR,0,21.47
+20/07/2024,2024,7,sella,wants,breakfast,EUR,0,7
+20/07/2024,2024,7,sella,wants,road tolls,EUR,0,5
+20/07/2024,2024,7,revolut_GBP,wants,motorbike trip,GBP,0,86.53
+21/07/2024,2024,7,sella,wants,clothes,EUR,0,7.99
+21/07/2024,2024,7,sella,groceries,groceries,EUR,0,69.53
+21/07/2024,2024,7,sella,wants,dinner out,EUR,0,40
+21/07/2024,2024,7,revolut_GBP,wants,train PV->BZ,GBP,0,30.36
+24/07/2024,2024,7,sella,needs,dentist,EUR,0,1800
+24/07/2024,2024,7,sella,wants,barber,EUR,0,25
+24/07/2024,2024,7,sella,wants,coffee,EUR,0,4.2
+24/07/2024,2024,7,sella,wants,duty free,EUR,0,15.05
+25/07/2024,2024,7,revolut_EUR,wants,drink out,EUR,0,8.79
+25/07/2024,2024,7,revolut_GBP,wants,drink out,GBP,0,13.7
+26/07/2024,2024,7,revolut_GBP,wants,drink out,GBP,0,14
+26/07/2024,2024,7,revolut_GBP,wants,uber,GBP,0,9.92
+27/07/2024,2024,7,revolut_GBP,wants,drink and meals out,GBP,0,77.15
+28/07/2024,2024,7,sella,wants,lunch out,EUR,0,17.8
+28/07/2024,2024,7,revolut_GBP,wants,lunch out,GBP,0,24
+29/07/2024,2024,7,sella,salary,salary,EUR,3640.44,0
+29/07/2024,2024,7,revolut_GBP,wants,groceries,GBP,0,6.89
+29/07/2024,2024,7,sella,groceries,groceries,EUR,0,30.6
+30/07/2024,2024,7,sella,bills,gas bill,EUR,0,100
+30/07/2024,2024,7,sella,wants,groceries,EUR,0,5.1
+31/07/2024,2024,7,sella,wants,food out,EUR,0,29.55
+31/07/2024,2024,7,revolut_EUR,wants,dinner out,EUR,20,0
+01/08/2024,2024,8,sella,rent,rent,EUR,0,2424
+01/08/2024,2024,8,sella,wants,lunch out,EUR,0,10
+01/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,10
+02/08/2024,2024,8,sella,transfer,sella to revolut,EUR,0,500
+02/08/2024,2024,8,sella,rent,rent,EUR,1312,0
+02/08/2024,2024,8,revolut_EUR,transfer,sella to revolut,EUR,500,0
+02/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,91.2
+02/08/2024,2024,8,revolut_GBP,wants,holiday expenses,GBP,0,62.01
+03/08/2024,2024,8,sella,needs,dentist,EUR,0,100
+03/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,40.3
+04/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,25.37
+05/08/2024,2024,8,sella,wants,fuel,EUR,0,24.69
+05/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,72.2
+06/08/2024,2024,8,sella,wants,book,EUR,0,8.99
+06/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,218.56
+07/08/2024,2024,8,sella,subscription,netflix,EUR,0,9.43
+07/08/2024,2024,8,sella,wants,fuel,EUR,0,23.01
+08/08/2024,2024,8,revolut_EUR,wants,holiday expenses,EUR,0,21.8
+09/08/2024,2024,8,sella,wants,holiday expenses,EUR,0,215.04
+09/08/2024,2024,8,revolut_EUR,wants,tennis,EUR,0,16.5
+10/08/2024,2024,8,sella,wants,holiday expenses,EUR,0,63.44
+10/08/2024,2024,8,revolut_EUR,wants,food out,EUR,0,16.9
+11/08/2024,2024,8,revolut_EUR,rent,room rent Agathe's sister,EUR,200,0
+11/08/2024,2024,8,revolut_EUR,wants,food out,EUR,0,21.84
+11/08/2024,2024,8,revolut_GBP,wants,drink out,GBP,0,10.57
+11/08/2024,2024,8,generali_SAV,income,interests,EUR,0,3059.95
+12/08/2024,2024,8,revolut_EUR,needs,groceries,EUR,0,36.8
+13/08/2024,2024,8,revolut_EUR,needs,driving license renewal,EUR,0,55
+14/08/2024,2024,8,revolut_EUR,needs,driving license renewal,EUR,0,2.93
+15/08/2024,2024,8,revolut_EUR,needs,groceries,EUR,0,13.99
+16/08/2024,2024,8,sella,needs,groceries,EUR,0,7.25
+16/08/2024,2024,8,revolut_EUR,needs,groceries,EUR,0,52.44
+16/08/2024,2024,8,revolut_EUR,wants,drink out,EUR,0,16
+17/08/2024,2024,8,revolut_EUR,wants,coffee,EUR,0,7.4
+17/08/2024,2024,8,revolut_GBP,wants,bbq,GBP,0,25.87
+20/08/2024,2024,8,sella,groceries,groceries,EUR,0,36.53
+20/08/2024,2024,8,revolut_EUR,wants,groceries,EUR,0,5.81
+20/08/2024,2024,8,revolut_GBP,wants,groceries,GBP,0,17.5
+22/08/2024,2024,8,sella,wants,night out,EUR,0,47.7
+24/08/2024,2024,8,sella,wants,duty free,EUR,0,14
+24/08/2024,2024,8,revolut_GBP,wants,eating out,GBP,0,27.34
+24/08/2024,2024,8,revolut_GBP,bills,electric bills,GBP,0,85.74
+26/08/2024,2024,8,revolut_GBP,needs,dinner out - work,GBP,0,6.38
+28/08/2024,2024,8,sella,salary,salary,EUR,3514.68,0
+31/08/2024,2024,8,generali_SAV,income,interests,EUR,2789.92,0
