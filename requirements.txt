@@ -66,7 +66,7 @@ pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 python-multipart==0.0.9
 pytz==2024.1
-pywin32
+pywin32==306
 pyzmq==25.1.2
 questionary==2.0.1
 referencing==0.34.0
